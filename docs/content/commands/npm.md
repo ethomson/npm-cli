@@ -41,7 +41,7 @@ terms of use.
 You probably got npm because you want to install stuff.
 
 Use `npm install blerg` to install the latest version of "blerg".  Check out
-[`npm install`](/commands/npm-install) for more info.  It can do a lot of stuff.
+[`npm install`](/commands/npm-npm-install) for more info.  It can do a lot of stuff.
 
 Use the `npm search` command to show everything that's available.
 Use `npm ls` to show everything you've installed.
@@ -158,8 +158,8 @@ reproduction to report.
 <i@izs.me>
 
 ### See Also
-* [npm help](/commands/npm-help)
+* [npm help](/commands/npm-npm-help)
 * [package.json](/configuring-npm/package-json)
-* [npm install](/commands/npm-install)
-* [npm config](/commands/npm-config)
+* [npm install](/commands/npm-npm-install)
+* [npm config](/commands/npm-npm-config)
 * [npmrc](/configuring-npm/npmrc)

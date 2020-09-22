@@ -96,7 +96,7 @@ least, you need:
   they'll get installed just like these ones.
 
 You can use `npm init` in the root of your package in order to get you
-started with a pretty basic package.json file.  See [`npm init`](/commands/npm-init) for
+started with a pretty basic package.json file.  See [`npm init`](/commands/npm-npm-init) for
 more info.
 
 ### Keeping files *out* of your package
@@ -165,7 +165,7 @@ changes in real time without having to keep re-installing it.  (You do
 need to either re-link or `npm rebuild -g` to update compiled packages,
 of course.)
 
-More info at [`npm link`](/commands/npm-link).
+More info at [`npm link`](/commands/npm-npm-link).
 
 ### Before Publishing: Make Sure Your Package Installs and Works
 
@@ -213,7 +213,7 @@ npm adduser
 
 and then follow the prompts.
 
-This is documented better in [npm adduser](/commands/npm-adduser).
+This is documented better in [npm adduser](/commands/npm-npm-adduser).
 
 ### Publish your package
 
@@ -239,10 +239,10 @@ Tell the world how easy it is to install your program!
 
 ### See also
 
-* [npm](/commands/npm)
-* [npm init](/commands/npm-init)
+* [npm](/commands/npm-npm)
+* [npm init](/commands/npm-npm-init)
 * [package.json](/configuring-npm/package-json)
 * [npm scripts](/using-npm/scripts)
-* [npm publish](/commands/npm-publish)
-* [npm adduser](/commands/npm-adduser)
+* [npm publish](/commands/npm-npm-publish)
+* [npm adduser](/commands/npm-npm-adduser)
 * [npm registry](/using-npm/registry)
