@@ -28,7 +28,7 @@ common options: [-P|--save-prod|-D|--save-dev|-O|--save-optional] [-E|--save-exa
 This command installs a package, and any packages that it depends on. If the
 package has a package-lock or shrinkwrap file, the installation of dependencies
 will be driven by that, with an `npm-shrinkwrap.json` taking precedence if both
-files exist. See [package-lock.json](/configuring-npm/package-lock-json) and [`npm shrinkwrap`](/cli-commands/shrinkwrap).
+files exist. See [package-lock.json](/configuring-npm/package-lock-json) and [`npm shrinkwrap`](/commands/shrinkwrap).
 
 A `package` is:
 
@@ -36,7 +36,7 @@ A `package` is:
 * b) a gzipped tarball containing (a)
 * c) a url that resolves to (b)
 * d) a `<name>@<version>` that is published on the registry (see [`registry`](/using-npm/registry)) with (c)
-* e) a `<name>@<tag>` (see [`npm dist-tag`](/cli-commands/dist-tag)) that points to (d)
+* e) a `<name>@<tag>` (see [`npm dist-tag`](/commands/dist-tag)) that points to (d)
 * f) a `<name>` that has a "latest" tag satisfying (e)
 * g) a `<git remote url>` that resolves to (a)
 
@@ -499,17 +499,17 @@ affects a real use-case, it will be investigated.
 ### See Also
 
 * [npm folders](/configuring-npm/folders)
-* [npm update](/cli-commands/update)
-* [npm audit](/cli-commands/audit)
-* [npm fund](/cli-commands/fund)
-* [npm link](/cli-commands/link)
-* [npm rebuild](/cli-commands/rebuild)
+* [npm update](/commands/update)
+* [npm audit](/commands/audit)
+* [npm fund](/commands/fund)
+* [npm link](/commands/link)
+* [npm rebuild](/commands/rebuild)
 * [npm scripts](/using-npm/scripts)
-* [npm build](/cli-commands/build)
-* [npm config](/cli-commands/config)
+* [npm build](/commands/build)
+* [npm config](/commands/config)
 * [npmrc](/configuring-npm/npmrc)
 * [npm registry](/using-npm/registry)
-* [npm dist-tag](/cli-commands/dist-tag)
-* [npm uninstall](/cli-commands/uninstall)
-* [npm shrinkwrap](/cli-commands/shrinkwrap)
+* [npm dist-tag](/commands/dist-tag)
+* [npm uninstall](/commands/uninstall)
+* [npm shrinkwrap](/commands/shrinkwrap)
 * [package.json](/configuring-npm/package-json)

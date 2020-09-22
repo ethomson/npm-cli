@@ -14,4 +14,4 @@ Just use `npm install` now to do what `npm bundle` used to do.
 
 ### See Also
 
-* [npm install](/cli-commands/install)
+* [npm install](/commands/install)
