@@ -1,4 +1,5 @@
 - title: CLI Commands
+  shortName: Commands
   url: /commands
   children:
   - title: npm
@@ -186,6 +187,7 @@
     description: Run a command from a local or remote npm package
 
 - title: Configuring npm
+  shortName: Configuring
   url: /configuring-npm
   children:
   - title: Install
@@ -211,6 +213,7 @@
     description: A publishable lockfile
 
 - title: Using npm
+  shortName: Using
   url: /using-npm
   children:
   - title: Registry
