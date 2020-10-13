@@ -13,8 +13,9 @@
     "url": "https://github.com/npm/cli"
   },
   "dependencies": {
-    "gatsby-theme-doctornpm": "^1.0.2",
     "gatsby": "^2.24.65",
+    "gatsby-theme-doctornpm": "^1.1.0",
+    "gatsby-plugin-relativeurl": "^2.1.0",
     "react": "^16.8.6",
     "react-dom": "^16.8.6"
   }
