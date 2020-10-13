@@ -51,7 +51,7 @@ mandocs: $(mandocs)
 htmldocs:
 	cd docs && node ../bin/npm-cli.js install && \
 	node ../bin/npm-cli.js run build:static >&2 && \
-	rm -rf node_modules .cache public/*js public/*json public/404* public/page-data public/manifest*
+	rm -rf .cache public/*js public/*json public/404* public/page-data public/manifest* public/*.map public/*.LICENSE.txt public/static
 
 docs: mandocs htmldocs
 
